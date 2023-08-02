@@ -1,0 +1,28 @@
+/* src/App.css */
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Cambiar el color del fondo al pasar el ratón por encima del botón */
+.nav-link:hover {
+  background-color: #eee;
+}
