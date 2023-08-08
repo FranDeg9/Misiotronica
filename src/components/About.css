@@ -3,20 +3,21 @@
     max-width: 600px; 
     margin: 0 auto; 
     padding: 20px; 
-    margin-top: 10%;
   }
   
   .about-title {
     font-size: 48px; 
     margin-bottom: 10px; 
     color: brown;
+    background-color: rgba(199, 176, 176, 0.9);
+    border-radius: 1rem;
 
   }
   
   .about-text {
     font-size: 20px; 
     color: brown;
-    background-color: bisque;
-    border-radius: 5px;
+    background-color: rgba(199, 176, 176, 0.9);
+    border-radius: 1rem;
   }
   

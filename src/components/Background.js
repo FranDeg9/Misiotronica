@@ -1,5 +1,6 @@
 import React from 'react';
-import backgroundImg from './misiotronicafondo.jpg'; // Reemplaza 'ruta-a-tu-imagen-fondo.jpg' con la ruta a tu imagen de fondo
+import backgroundImg from './misiotronicafondo.jpg'; 
+
 
 const Background = () => {
   return (
@@ -15,6 +16,7 @@ const Background = () => {
         width: '100%',
         height: '100%',
         zIndex: -1,
+        opacity: 0.65,
       }}
     />
   );

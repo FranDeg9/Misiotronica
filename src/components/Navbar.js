@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contacto" onClick={handleLinkClick}>
-              contacto
+              Contacto
             </Link>
           </li>
           <li>
