@@ -65,10 +65,29 @@ label[for="subject"] {
 input[type="email"],
 input[type="text"] {
 
-  margin: 0 auto;
+  margin: auto;
   display: block;
+  margin-bottom: 5px;
 }
 #message {
     margin: auto;
 }
 
+.text-form {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
