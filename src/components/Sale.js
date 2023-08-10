@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Producto from './Producto';
 import productImage1 from './image/cargadorusb.png';
 import productImage2 from './image/detectordemovimientos.png';
@@ -53,12 +53,27 @@ const products = [
   },
 ];
 
+
+
 const Sale = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredProducts = products.filter((product) =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="sale-container">
       <h1 className="tittle-venta">Productos en Venta</h1>
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Buscar productos..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
       <div className="products-list">
-        {products.slice(0, 6).map((product) => (
+        {filteredProducts.map((product) => (
           <Producto
             key={product.id}
             name={product.name}

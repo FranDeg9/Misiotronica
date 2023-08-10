@@ -1,13 +1,10 @@
 .navbar-container {
-  background-color: #0d0f09; 
-  background-image: url('misiotronibarrafondo.jpg'); 
-  background-size: 100% 100%; 
-  background-repeat: no-repeat;
-  background-position: center top;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  background-color: black;
+  opacity: 0.9;
 }
 
 .menu-toggle {
@@ -31,7 +28,7 @@
 
 .search-container button {
   background-color: #007bff;
-  color: #fff;
+  color: #e01818;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
@@ -43,10 +40,11 @@
   left: -100%; /* para ocultar la barra */
   /*width: 250px;  Ancho de la barra lateral */
   /*height: 15%;  Altura de la barra lateral */
-  /*background-color: rgba(199, 176, 176, 0.8);*/
-  border-radius: 10px;
+  background-color: black;
+  border-end-end-radius: 10px;
   transition: left 0.5s; /* Agrega una transición para animar la aparición/desaparición */
   z-index: 4;
+  opacity: 0.9;
 }
 
 .sidebar.show {
@@ -69,11 +67,49 @@
   border-right: none;
 }
 
+
+
 .sidebar-menu li {
-  width: 200px;
-  background-color: rgba(199, 176, 176, 0.8);
-  font-size: larger;
-  border-radius: 5px;
+  width: 300px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  
+  list-style-type: none;
+  opacity: 0.8;
+  color: #e01818; 
+}
+
+
+.sidebar-menu li a {
+  text-decoration: none;
+  color: brown 
+}
+
+.sidebar-menu li a:hover {
+  color: #ff4500; 
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px; 
+  height: auto;
+  margin: 0 10px; 
 }
