@@ -9,7 +9,7 @@
 
 .menu-toggle {
   display: block;
-  background: black;
+  background: brown;
   border: 2px;
   cursor: pointer;
   padding: 0;
@@ -41,6 +41,7 @@
   /*width: 250px;  Ancho de la barra lateral */
   /*height: 15%;  Altura de la barra lateral */
   background-color: black;
+  border-radius: 5px;
   border-end-end-radius: 10px;
   transition: left 0.5s; /* Agrega una transición para animar la aparición/desaparición */
   z-index: 4;
@@ -112,4 +113,8 @@
   width: 150px; 
   height: auto;
   margin: 0 10px; 
+}
+
+button {
+  z-index: 6;
 }
