@@ -5,6 +5,21 @@
   color: brown;
 }
 
+.offer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.offer a:hover {
+  text-decoration: underline;
+  color: #e01818;
+}
+
+
+p {
+  font-size: larger;
+  font-weight: bold;
+}
 
 .social-links {
   margin-top: 20px;
@@ -39,4 +54,17 @@
 
 .quick-links a:hover {
   color: #e01818;
+}
+
+
+.image-size {
+  width: 50%;
+}
+
+
+
+.image-size {
+  max-width: 20%; 
+  max-height: 20%;
+  margin: 0 auto; 
 }
