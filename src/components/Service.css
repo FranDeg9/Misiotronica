@@ -1,16 +1,14 @@
-/* Navbar.css */
-/* Asegúrate de que la clase .navbar-container tenga un z-index */
+
 .navbar-container {
   position: relative;
-  z-index: 3; /* Asigna un valor positivo, mayor que 1 */
+  z-index: 2; /* Asigna un valor positivo, mayor que 1 */
 }
 
-/* Service.css */
-/* Asegúrate de que .service-container tenga un z-index mayor al de .navbar-container */
+
 .service-container {
   position: relative;
   height: 100vh;
-  z-index: 4; /* Asigna un valor positivo mayor que el de .navbar-container */
+  z-index: 3; /* Asigna un valor positivo mayor que el de .navbar-container */
 }
 
 .background-image {
@@ -20,5 +18,5 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 2; /* Asigna un valor positivo menor que el de .navbar-container */
+  z-index: 1; /* Asigna un valor positivo menor que el de .navbar-container */
 }

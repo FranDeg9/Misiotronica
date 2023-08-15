@@ -48,7 +48,7 @@ const Contact = () => {
           <label className='text-form' htmlFor="message">Mensaje:</label>
           <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} required />
         </div>
-        <button type="submit">Enviar</button>
+        <button className='button' type="submit">Enviar</button>
       </form>
     </div>
   );
